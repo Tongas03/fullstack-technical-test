@@ -3,18 +3,16 @@
 ## 📝 Descripción
 
 <!-- Explicá brevemente qué incluye este PR -->
-Este PR contiene la solución para la prueba técnica para el puesto de Desarrollador Full Stack Senior. Incluye la implementación del backend en Laravel y el frontend en React (con Breeze).
+Este PR contiene la solución para la prueba técnica para el puesto de Desarrollador Full Stack Senior. Incluye la implementación del backend en Laravel.
 
 ---
 
 ## 📚 Tecnologías utilizadas
 
 - **Entorno de desarrollo:** Windows + Vagrant + Homestead
-- Laravel Breeze con React
+- Laravel
 - MySQL (Homestead)
 - Redis (opcional)
-- Vite
-- React + Tailwind CSS
 
 ---
 
