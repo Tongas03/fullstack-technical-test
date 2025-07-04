@@ -1,6 +1,6 @@
 # 🧪 Prueba Técnica — Full Stack Developer
 
-Este proyecto es una **prueba técnica** para el puesto de **Desarrollador Full Stack Senior**. Fue desarrollado utilizando **Laravel** (con Breeze + React) para el backend y frontend, con una base de datos MySQL y entorno de desarrollo basado en **Homestead/Vagrant** (aunque también es compatible con Linux).
+Este proyecto es una **prueba técnica** para el puesto de **Desarrollador Full Stack Senior**. Fue desarrollado utilizando **Laravel** para el backend , con una base de datos MySQL y entorno de desarrollo basado en **Homestead/Vagrant** (aunque también es compatible con Linux).
 
 ---
 
@@ -9,7 +9,6 @@ Este proyecto es una **prueba técnica** para el puesto de **Desarrollador Full 
 Implementar una aplicación web funcional que sirva como evaluación técnica, cumpliendo con los siguientes criterios:
 
 - Estructura clara de backend y frontend desacoplados
-- Autenticación completa con Laravel Breeze + React
 - Integración con base de datos MySQL
 - Buenas prácticas de arquitectura, control de versiones y documentación
 
@@ -32,7 +31,6 @@ Este script realiza lo siguiente:
 - Instala dependencias PHP y JavaScript
 - Genera la clave de aplicación Laravel
 - Ejecuta las migraciones y seeders
-- Compila los assets de frontend con Vite
 
 ---
 
@@ -74,11 +72,7 @@ Password: password
 ## 📚 Tecnologías utilizadas
 
 - Laravel (backend)
-- Laravel Breeze (autenticación)
-- React + Tailwind CSS (frontend)
-- Vite (compilador frontend)
 - MySQL (base de datos)
-- Redis (opcional)
 - **Entorno de desarrollo:** Windows + Vagrant + Homestead (también compatible con Linux)
 
 ---
@@ -94,7 +88,6 @@ php artisan test
 ## 🛠️ Estructura del proyecto
 
 ```text
-/resources/js/         → Componentes React
 /routes/web.php        → Rutas protegidas (Laravel)
 /database/seeders/     → Seeders para datos de prueba
 /public/               → Archivos públicos y build
